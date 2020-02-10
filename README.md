@@ -28,13 +28,7 @@ Productivity of the Developers: The containers deduct the dependencies and confl
 
 What is the relationship between Kubernetes and containers?
 
-Here is what I have gathered based on my discussion with a classmate...
-
-Containers are a good way to bundle and run your applications. In a production environment, you need to manage the containers that run the applications and ensure that
- there is no downtime. For example, if a container goes down, another container needs to start. Wouldn’t it be easier if this behavior was handled by a system?
-
-That’s how Kubernetes comes to the rescue! Kubernetes provides you with a framework to run distributed systems resiliently. It takes care of scaling and failover for
-your application, provides deployment patterns, and more.
+Kubernetes is an open-source container management software developed in the Google platform. Docker is an open-source lightweight containerization technology. Kubernetes offers a feature of automated scheduling. Docker offers an isolated environment for managing your applications. (Courtesy:- WWW)
 
 Post a screenshot of a lab where you had difficulty with a concept or learned something.
 
